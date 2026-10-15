@@ -1,0 +1,38 @@
+# ESP-IDF generated build outputs
+/build/
+/build-*/
+/sdkconfig
+/sdkconfig.old
+/sdkconfig.*.old
+
+# ESP-IDF Component Manager downloads (including LVGL)
+/managed_components/
+
+# ESP-IDF local configuration and caches
+/.idf_component_manager/
+/.cache/
+
+# Python environments and caches
+/.venv/
+/venv/
+__pycache__/
+*.py[cod]
+
+# VS Code local settings (keep recommended extensions)
+.vscode/*
+!.vscode/extensions.json
+
+# macOS
+.DS_Store
+._*
+.Spotlight-V100/
+.Trashes/
+
+# Editor temp files
+*.swp
+*.swo
+*~
+
+# Keep tracked source, component manifests, and reproducible config:
+# components/, main/, CMakeLists.txt, idf_component.yml,
+# sdkconfig.defaults, dependencies.lock
